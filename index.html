@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sortable Grid DND</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="grid">
+    <div class="item">
+      <div class="item-content">
+        One
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        Two
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        Three
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        Four
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        Five
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        <lord-icon src="https://cdn.lordicon.com/drvsrrac.json" trigger="hover"
+          colors="primary:#3a3347,secondary:#ebe6ef,tertiary:#b26836,quaternary:#2ca58d,quinary:#4bb3fd,senary:#ffc738"
+          style="width:200px;height:200px">
+        </lord-icon>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        <lord-icon src="https://cdn.lordicon.com/hbvgknxo.json" trigger="hover"
+          colors="primary:#ebe6ef,secondary:#4bb3fd,tertiary:#3a3347" style="width:200px;height:200px">
+        </lord-icon>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+
+  <script>
+    const grid = new Muuri('.grid', {
+      dragEnabled: true,
+      // dragAxis: 'x'
+    });
+  </script>
+
+</body>
+
+</html>
