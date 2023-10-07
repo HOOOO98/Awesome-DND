@@ -1,3 +1,4 @@
+[ENG READEME->](https://github.com/HOOOO98/Awesome-DND/blob/main/README.md)
 # ✨Awesome-DND
 드래그 앤 드랍을 연습해 볼 수 있습니다.
 <br>
