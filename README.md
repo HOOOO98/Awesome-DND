@@ -1,3 +1,4 @@
+[한국어 리드미](https://github.com/HOOOO98/Awesome-DND/tree/main/KR#readme)
 # ✨Awesome-DND
 Practicing grid-based drag and drop functionality.
 <br>
